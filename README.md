@@ -25,7 +25,7 @@
 ### 联系我们
 
 
-1. 邮箱: kchaintw@gmail.com 
+1. 邮箱: jchaintw@gmail.com 
 
 ### 工程说明
 
