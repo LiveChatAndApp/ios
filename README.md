@@ -1,23 +1,20 @@
-## 野火IM解决方案
+# 延伸的 野火IM解决方案
 
-野火IM是专业级即时通讯和实时音视频整体解决方案，由北京野火无限网络科技有限公司维护和支持。
+有興趣可以到 野火團隊 去 下載 代碼  https://github.com/wildfirechat
 
-主要特性有：私有部署安全可靠，性能强大，功能齐全，全平台支持，开源率高，部署运维简单，二次开发友好，方便与第三方系统对接或者嵌入现有系统中。详细情况请参考[在线文档](https://docs.wildfirechat.cn)。
+這邊是 用於學習方面 野火沒有給的 admin 管理介面和 ui 對於 程序員 教學 或是 學習 使用
 
-主要包括一下项目：
+此版本已經驗證 
 
-| [GitHub仓库地址(主站)](https://github.com/wildfirechat)      | [码云仓库地址(镜像)](https://gitee.com/wfchat)        | 说明                                                                                      | 备注                                           |
-| ------------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| [im-server](https://github.com/wildfirechat/im-server)       | [im-server](https://gitee.com/wfchat/im-server)          | IM Server                                                                                 |                                                |
-| [android-chat](https://github.com/wildfirechat/android-chat) | [android-chat](https://gitee.com/wfchat/android-chat) | 野火IM Android SDK源码和App源码                                                           | 可以很方便地进行二次开发，或集成到现有应用当中 |
-| [ios-chat](https://github.com/wildfirechat/ios-chat)         | [ios-chat](https://gitee.com/wfchat/ios-chat)         | 野火IM iOS SDK源码和App源码                                                               | 可以很方便地进行二次开发，或集成到现有应用当中 |
-| [pc-chat](https://github.com/wildfirechat/vue-pc-chat)       | [pc-chat](https://gitee.com/wfchat/vue-pc-chat)       | 基于[Electron](https://electronjs.org/)开发的PC 端                                        |                                                |
-| [web-chat](https://github.com/wildfirechat/vue-chat)         | [web-chat](https://gitee.com/wfchat/vue-chat)         | 野火IM Web 端, [体验地址](http://web.wildfirechat.cn)                                     |                                                |
-| [wx-chat](https://github.com/wildfirechat/wx-chat)           | [wx-chat](https://gitee.com/wfchat/wx-chat)           | 小程序平台的Demo(支持微信、百度、阿里、字节、QQ 等小程序平台)                             |                                                |
-| [app server](https://github.com/wildfirechat/app_server)     | [app server](https://gitee.com/wfchat/app_server)     | 应用服务端                                                                                |                                                |
-| [robot_server](https://github.com/wildfirechat/robot_server) | [robot_server](https://gitee.com/wfchat/robot_server) | 机器人服务端                                                                              |                                                |
-| [push_server](https://github.com/wildfirechat/push_server)   | [push_server](https://gitee.com/wfchat/push_server)   | 推送服务器                                                                                |                                                |
-| [docs](https://github.com/wildfirechat/docs)                 | [docs](https://gitee.com/wfchat/docs)                 | 野火IM相关文档，包含设计、概念、开发、使用说明，[在线查看](https://docs.wildfirechat.cn/) |                                                |
+
+| [GitHub仓库地址](https://github.com/LiveChatAndApp)       | 说明                                                                                      
+| ------------------------------------------------------------  | --------------------------------------------------------------------------
+| [im-server](https://github.com/LiveChatAndApp/im-server)          | 野火社区版IM服务，野火IM的核心服务，处理所有IM相关业务。  |
+| [app_server](https://github.com/LiveChatAndApp/app_server)       | Demo应用服务，模拟客户的应用服登陆处理逻辑及部分二次开发示例。 |
+| [admin-ui](https://github.com/LiveChatAndApp/admin-ui)       | Demo应用服务，基於vue admin element 的 admin 管理介面。 |
+| [admin-api](https://github.com/LiveChatAndApp/im-admin)       | Demo应用服务，admin 後台 api 開發。 |
+| [android-chat](https://github.com/LiveChatAndApp/Android) | 野火IM Android SDK源码和App源码。 |
+| [ios-chat](https://github.com/LiveChatAndApp/ios)             | 野火IM iOS SDK源码和App源码。|
 
 
 ## 说明
@@ -27,49 +24,8 @@
 
 ### 联系我们
 
-> 商务合作请优先采用邮箱和我们联系。技术问题请到[野火IM论坛](http://bbs.wildfirechat.cn/)发帖交流。
 
-1. heavyrain.lee  邮箱: heavyrain.lee@wildfirechat.cn  微信：wildfirechat
-2. imndx  邮箱: imndx@wildfirechat.cn  微信：wfchat
-
-### 问题交流
-
-1. 如果大家发现bug，请在GitHub提issue
-2. 其他问题，请到[野火IM论坛](http://bbs.wildfirechat.cn/)进行交流学习
-3. 微信公众号
-
-<img src="http://static.wildfirechat.cn/wx_wfc_qrcode.jpg" width = 50% height = 50% />
-
-> 强烈建议关注我们的公众号。我们有新版本发布或者有重大更新会通过公众号通知大家，另外我们也会不定期的发布一些关于野火IM的技术介绍。
-
-#### 体验Demo
-我们提供了体验demo，请使用微信扫码下载安装体验
-
-![野火IM](http://static.wildfirechat.cn/download_qrcode.png)
-
-#### 应用截图
-![ios-demo](http://static.wildfirechat.cn/ios-demo.gif)
-
-<img src="http://static.wildfirechat.cn/ios-message-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-contact-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-discover-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-settings-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-messagelist-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-chat-setting-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-takephoto-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-record-voice-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-location-view.png" width = 50% height = 50% />
-
-<img src="http://static.wildfirechat.cn/ios-voip-view.png" width = 50% height = 50% />
-
+1. 邮箱: kchaintw@gmail.com 
 
 ### 工程说明
 
